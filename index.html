@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Cayman</title>
+    <title>Discord Bots - Landing</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <link rel="stylesheet" href="css/normalize.css">
@@ -11,296 +11,87 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">Cayman</h1>
-      <h2 class="project-tagline">A responsive theme for your project on GitHub Pages</h2>
-      <a href="#" class="btn">View on GitHub</a>
-      <a href="#" class="btn">Download .zip</a>
-      <a href="#" class="btn">Download .tar.gz</a>
+      <h1 class="project-name">Discord Bots by Aditya Gaiki</h1>
+      <h1 class="project-tagline">This is a landing page that houses all of the downloads for the Discord bots I have developed individually<br>
+        (or forked from other projects). You can view the instructions of all the respective ones below! </h1>
+      <br>
+      <h7 class="project-name">Bed Wars Defense Bot</h7>
+      <h1 class="project-tagline">This is a simple Discord bot that assigns chief and backup defenders for a Bed Wars game on Hypixel based <br> on predetermined assignments based on maps. However, it also has a functionality which generates a random pairing of defenders if needed. <br> This application comes in two "flavors," Python and Node.JS. Currently, the Python version only supports randomization. </h1>
+      <a href="https://github.com/AGaiki/Hypixel-Bed-Wars-Defense-Bot "class="btn" target="_blank">View on GitHub </a>
+      <a href="https://github.com/AGaiki/Hypixel-Bed-Wars-Defense-Bot/releases/download/v1/bot.py" target="blank" class="btn">Download latest release (Python)</a>
+        <a href="https://github.com/AGaiki/Hypixel-Bed-Wars-Defense-Bot/releases/download/v1/bot.js"target="blank" class="btn">Download latest release (NodeJS)</a>
+        <br><br>
+        <h7 class="project-name">Facts Bot</h7>
+        <h1 class="project-tagline">This is a simple Discord bot written in Python that picks a random fact from a given list. It has support for both hardcoding your facts or list into the code, <br>
+           or the much better and flexible ability to list your facts in a text file (which needs to be specified).</h1>
+        <a href="https://github.com/AGaiki/Facts-Bot" target="blank" class="btn">View on GitHub</a>
+        <a href="https://github.com/AGaiki/Facts-Bot/releases/download/v1/facts.py" target="blank" class="btn">Download latest release (Python)</a>
     </section>
 
     <section class="main-content">
-      <p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>. <a href="https://github.com">Links</a> should be blue with no underlines (unless hovered over).</p>
-
-      <p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.</p>
-
-      <p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.</p>
-
-      <blockquote>
-      <p>There should be no margin above this first sentence.</p>
-
-      <p>Blockquotes should be a lighter gray with a gray border along the left side.</p>
-
-      <p>There should be no margin below this final sentence.</p>
-      </blockquote>
-
       <h1>
-      <a id="user-content-header-1" class="anchor" href="#header-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Header 1</h1>
-
-      <p>This is a normal paragraph following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.</p>
-
+      <a id="user-content-header-1" class="anchor" href="#header-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bed Wars Defense Bot</h1>
       <h2>
-      <a id="user-content-header-2" class="anchor" href="#header-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Header 2</h2>
+      <a id="user-content-header-2" class="anchor" href="#header-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation / Building - Python Edition</h2>
 
-      <blockquote>
-      <p>This is a blockquote following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.</p>
-      </blockquote>
 
-      <h3>
-      <a id="user-content-header-3" class="anchor" href="#header-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>Header 3</h3>
+      <p>Make sure you have at least Python 3.8 installed from either <a href="https://www.python.org/downloads/" target="blank">Python.org</a> or the <a href="https://www.microsoft.com/en-us/p/python-38/9mssztt1n39l?activetab=pivot:overviewtab" target="blank">Microsoft Store (for Windows 10 ONLY)</a>. For some reason, the Microsoft Store edition of Python has given me more success than the python.org version, but you can figure out what you want to use. If you are using macOS or a Linux distribution, you can install the appropriate versions of Python. For the purposes of these tutorial, we will assume you are using Windows 10. The commands are more or less the same, so no matter what OS you have, you should be able to run it successfully. After you have installed Python, you need to install <a href="https://pypi.org/project/discord.py/" target="blank">discord.py</a>. There are two versions of discord.py available, one with only text based support and one with both text and voice based support. Since this is a very basic bot, you need not worry about installing the voice edition.
+To install, open up Command Prompt / Terminal and type in the following command: <code>pip3 install discord.py</code>. It may show you some warnings about an outdated pip install, but that is not really an issue in this case. Running that command gives you support for Discord-specific commands that are present in the code. After you've installed the dependencies needed, you should be good to go! Follow these steps:
+<ol class="task-list">
+<li>Download the latest bot.py from the link above. You should move this somewhere other than downloads (optional, although recommended), somewhere like Documents. You can also rename it if you'd like, but this tutorial will assume you are using bot.py as your filename. Using your favorite code editor (Visual Studio Code, Notepad ++, Notepad?), make sure to customize the bot.py commands and responses to your heart's content, as the version from the Releases page is a template you need to edit.</li>
+<li>On the very last line of the bot.py file, you need to edit the "TOKEN" field with your Discord bot token. You can find the instructions on how to do so <a href="https://discordpy.readthedocs.io/en/latest/discord.html" target="blank">here</a>.</li>
+<li>Finally, open up Command Prompt and navigate to your bot.py. Assuming you've moved it to the Documents folder, you would type into Command Prompt: <code>cd Documents</code> (or wherever you've saved it). After you have successfully navigated to the location of your bot.py file, type in: <code>python bot.py</code> (if you changed the filename from bot.py to something else, change the bot to the correct filename).</li>
+<li>Success! You have configured a bot properly! Good job! Feel free to play around with the Python syntax as you wish. <strong>Your bot will go offline if you shut off the hosting computer, disconnect from a network, or close the Command Prompt window.</strong>If you cannot, for some reason fulfill these requirements, you can follow <a href="https://repl.it/talk/learn/Hosting-discordpy-bots-with-replit/11008" target="blank">these steps</a> to host your bot on Repl.it.</li>
+</ol>
+</p>
+<h2>
+<a id="user-content-header-2" class="anchor" href="#header-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation / Building - NodeJS Edition</h2>
 
-      <pre><code>This is a code block following a header.</code></pre>
 
-      <h4>
-      <a id="user-content-header-4" class="anchor" href="#header-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Header 4</h4>
+<p>Make sure you have at least Node.js 12.16.3 LTS installed from <a href="https://nodejs.org/en/" target="blank">Nodejs.org</a>. If you are using macOS or a Linux distribution, you can install the appropriate versions of Node.js. For the purposes of these tutorial, we will assume you are using Windows 10. The commands are more or less the same, so no matter what OS you have, you should be able to run it successfully. After you have installed Node.js, you need to install <a href="https://discord.js.org/#/" target="blank">discord.js</a>.
+To install, open up Command Prompt / Terminal and type in the following command: <code>npm install discord.js</code>. It may show you some warnings, but that is not really an issue in this case. Running that command gives you support for Discord-specific commands that are present in the code. After you've installed the dependencies needed, you should be good to go! Follow these steps:
+<ol class="task-list">
+<li>Download the latest bot.js from Releases. You should move this somewhere other than downloads (optional, although recommended), somewhere like Documents. You can also rename it if you'd like, but this tutorial will assume you are using bot.js as your filename. Using your favorite code editor (Visual Studio Code, Notepad ++, Notepad?), make sure to customize the bot.js commands and responses to your heart's content, as the version from the Releases page is a template you need to edit.</li>
+<li>On the very last line of the bot.js file, you need to edit the "TOKEN" field with your Discord bot token. You can find the instructions on how to do so <a href="https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token" target="blank">here</a>.</li>
+<li>Finally, open up Command Prompt and navigate to your bot.js. Assuming you've moved it to the Documents folder, you would type into Command Prompt: <code>cd Documents</code> (or wherever you've saved it). After you have successfully navigated to the location of your bot.py file, type in: <code>node bot.js</code> (if you changed the filename from bot.py to something else, change the bot to the correct filename).</li>
+<li>Success! You have configured a bot properly! Good job! Feel free to play around with the Python syntax as you wish. <strong>Your bot will go offline if you shut off the hosting computer, disconnect from a network, or close the Command Prompt window.</strong>If you cannot, for some reason fulfill these requirements, you can follow <a href="https://repl.it/talk/learn/Hosting-discordjs-bots-on-replit-Works-for-both-discordjs-and-Eris/11027" target="blank">these steps</a> to host your bot on Repl.it.</li>
+</ol>
+</p>
+</section>
+<section class="main-content">
+  <h1>
+  <a id="user-content-header-1" class="anchor" href="#header-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Facts Bot</h1>
+  <h2>
+  <a id="user-content-header-2" class="anchor" href="#header-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation / Building - Python Edition</h2>
 
-      <ul class="task-list">
-      <li>This is an unordered list following a header.</li>
-      <li>This is an unordered list following a header.</li>
-      <li>This is an unordered list following a header.</li>
-      </ul>
 
-      <h5>
-      <a id="user-content-header-5" class="anchor" href="#header-5" aria-hidden="true"><span class="octicon octicon-link"></span></a>Header 5</h5>
+  <p>Make sure you have at least Python 3.8 installed from either <a href="https://www.python.org/downloads/" target="blank">Python.org</a> or the <a href="https://www.microsoft.com/en-us/p/python-38/9mssztt1n39l?activetab=pivot:overviewtab" target="blank">Microsoft Store (for Windows 10 ONLY)</a>. For some reason, the Microsoft Store edition of Python has given me more success than the python.org version, but you can figure out what you want to use. If you are using macOS or a Linux distribution, you can install the appropriate versions of Python. For the purposes of these tutorial, we will assume you are using Windows 10. The commands are more or less the same, so no matter what OS you have, you should be able to run it successfully. After you have installed Python, you need to install <a href="https://pypi.org/project/discord.py/" target="blank">discord.py</a>. There are two versions of discord.py available, one with only text based support and one with both text and voice based support. Since this is a very basic bot, you need not worry about installing the voice edition.
+To install, open up Command Prompt / Terminal and type in the following command: <code>pip3 install discord.py</code>. It may show you some warnings about an outdated pip install, but that is not really an issue in this case. Running that command gives you support for Discord-specific commands that are present in the code. After you've installed the dependencies needed, you should be good to go! Follow these steps:
+<ol class="task-list">
+<li>Download the latest facts.py from Releases. You should move this somewhere other than downloads (optional, although recommended), somewhere like Documents. You can also rename it if you'd like, but this tutorial will assume you are using facts.py as your filename. Using your favorite code editor (Visual Studio Code, Notepad ++, Notepad?), make sure to customize the facts.py commands and responses to your heart's content, as the version from the Releases page is a template you need to edit. Make sure that your actual content is separated from each other with commas and quotes. Something like this: <code>"Statement 1", "Statement 2", etc</code>. <strong>NOTE: If you would like to create a database of content (instead of hardcoding it to your actual code), go to Advanced.</strong></li>
+<li>On the very last line of the bot.py file, you need to edit the "TOKEN" field with your Discord bot token. You can find the instructions on how to do so <a href="https://discordpy.readthedocs.io/en/latest/discord.html" target="blank">here</a>.</li>
+<li>Finally, open up Command Prompt and navigate to your bot.py. Assuming you've moved it to the Documents folder, you would type into Command Prompt: <code>cd Documents</code> (or wherever you've saved it). After you have successfully navigated to the location of your bot.py file, type in: <code>python facts.py</code> (if you changed the filename from bot.py to something else, change the bot to the correct filename).</li>
+<li>Success! You have configured a bot properly! Good job! Feel free to play around with the Python syntax as you wish. <strong>Your bot will go offline if you shut off the hosting computer, disconnect from a network, or close the Command Prompt window.</strong>If you cannot, for some reason fulfill these requirements, you can follow <a href="https://repl.it/talk/learn/Hosting-discordpy-bots-with-replit/11008" target="blank">these steps</a> to host your bot on Repl.it.</li>
+</ol>
+</p>
 
-      <ol class="task-list">
-      <li>This is an ordered list following a header.</li>
-      <li>This is an ordered list following a header.</li>
-      <li>This is an ordered list following a header.</li>
-      </ol>
+<h2>
+<a id="user-content-header-2" class="anchor" href="#header-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Advanced Installation</h2>
 
-      <h6>
-      <a id="user-content-header-6" class="anchor" href="#header-6" aria-hidden="true"><span class="octicon octicon-link"></span></a>Header 6</h6>
 
-      <table>
-      <thead>
-      <tr>
-      <th>What</th>
-      <th>Follows</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-      <td>A table</td>
-      <td>A header</td>
-      </tr>
-      <tr>
-      <td>A table</td>
-      <td>A header</td>
-      </tr>
-      <tr>
-      <td>A table</td>
-      <td>A header</td>
-      </tr>
-      </tbody>
-      </table>
-
-      <hr>
-
-      <p>There's a horizontal rule above and below this.</p>
-
-      <hr>
-
-      <p>Here is an unordered list:</p>
-
-      <ul class="task-list">
-      <li>Salt-n-Pepa</li>
-      <li>Bel Biv DeVoe</li>
-      <li>Kid 'N Play</li>
-      </ul>
-
-      <p>And an ordered list:</p>
-
-      <ol class="task-list">
-      <li>Michael Jackson</li>
-      <li>Michael Bolton</li>
-      <li>Michael Bublé</li>
-      </ol>
-
-      <p>And an unordered task list:</p>
-
-      <ul class="task-list">
-      <li class="task-list-item">
-      <input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Create a sample markdown document</li>
-      <li class="task-list-item">
-      <input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Add task lists to it</li>
-      <li class="task-list-item">
-      <input type="checkbox" class="task-list-item-checkbox" disabled=""> Take a vacation</li>
-      </ul>
-
-      <p>And a "mixed" task list:</p>
-
-      <ul class="task-list">
-      <li class="task-list-item">
-      <input type="checkbox" class="task-list-item-checkbox" disabled=""> Steal underpants</li>
-      <li>?</li>
-      <li class="task-list-item">
-      <input type="checkbox" class="task-list-item-checkbox" disabled=""> Profit!</li>
-      </ul>
-
-      <p>And a nested list:</p>
-
-      <ul class="task-list">
-      <li>Jackson 5
-
-      <ul class="task-list">
-      <li>Michael</li>
-      <li>Tito</li>
-      <li>Jackie</li>
-      <li>Marlon</li>
-      <li>Jermaine</li>
-      </ul>
-      </li>
-      <li>TMNT
-
-      <ul class="task-list">
-      <li>Leonardo</li>
-      <li>Michelangelo</li>
-      <li>Donatello</li>
-      <li>Raphael</li>
-      </ul>
-      </li>
-      </ul>
-
-      <p>Definition lists can be used with HTML syntax. Definition terms are bold and italic.</p>
-
-      <dl>
-          <dt>Name</dt>
-          <dd>Godzilla</dd>
-          <dt>Born</dt>
-          <dd>1952</dd>
-          <dt>Birthplace</dt>
-          <dd>Japan</dd>
-          <dt>Color</dt>
-          <dd>Green</dd>
-      </dl>
-
-      <hr>
-
-      <p>Tables should have bold headings and alternating shaded rows.</p>
-
-      <table>
-      <thead>
-      <tr>
-      <th>Artist</th>
-      <th>Album</th>
-      <th>Year</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-      <td>Michael Jackson</td>
-      <td>Thriller</td>
-      <td>1982</td>
-      </tr>
-      <tr>
-      <td>Prince</td>
-      <td>Purple Rain</td>
-      <td>1984</td>
-      </tr>
-      <tr>
-      <td>Beastie Boys</td>
-      <td>License to Ill</td>
-      <td>1986</td>
-      </tr>
-      </tbody>
-      </table>
-
-      <p>If a table is too wide, it should condense down and/or scroll horizontally.</p>
-
-      <table>
-      <thead>
-      <tr>
-      <th>Artist</th>
-      <th>Album</th>
-      <th>Year</th>
-      <th>Label</th>
-      <th>Awards</th>
-      <th>Songs</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-      <td>Michael Jackson</td>
-      <td>Thriller</td>
-      <td>1982</td>
-      <td>Epic Records</td>
-      <td>Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical</td>
-      <td>Wanna Be Startin' Somethin', Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life</td>
-      </tr>
-      <tr>
-      <td>Prince</td>
-      <td>Purple Rain</td>
-      <td>1984</td>
-      <td>Warner Brothers Records</td>
-      <td>Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance by a Duo or Group with Vocal</td>
-      <td>Let's Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I'm a Star, Purple Rain</td>
-      </tr>
-      <tr>
-      <td>Beastie Boys</td>
-      <td>License to Ill</td>
-      <td>1986</td>
-      <td>Mercury Records</td>
-      <td>noawardsbutthistablecelliswide</td>
-      <td>Rhymin &amp; Stealin, The New Style, She's Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill</td>
-      </tr>
-      </tbody>
-      </table>
-
-      <hr>
-
-      <p>Code snippets like <code>var foo = "bar";</code> can be shown inline.</p>
-
-      <p>Also, <code>this should vertically align</code> <del><code>with this</code></del> <del>and this</del>.</p>
-
-      <p>Code can also be shown in a block element.</p>
-
-      <pre><code>var foo = "bar";
-</code></pre>
-
-      <p>Code can also use syntax highlighting.</p>
-
-      <div class="highlight highlight-Javascript"><pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>bar<span class="pl-pds">"</span></span>;</pre></div>
-
-      <pre><code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.</code></pre>
-
-      <div class="highlight highlight-Javascript"><pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>The same thing is true for code with syntax highlighting. A single line of code should horizontally scroll if it is really long.<span class="pl-pds">"</span></span>;</pre></div>
-
-      <p>Inline code inside table cells should still be distinguishable.</p>
-
-      <table>
-      <thead>
-      <tr>
-      <th>Language</th>
-      <th>Code</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-      <td>Javascript</td>
-      <td><code>var foo = "bar";</code></td>
-      </tr>
-      <tr>
-      <td>Ruby</td>
-      <td><code>foo = "bar"</code></td>
-      </tr>
-      </tbody>
-      </table>
-
-      <hr>
-
-      <p>Small images should be shown at their actual size.</p>
-
-      <p><a href="https://camo.githubusercontent.com/16a9d5241f679b6429fc0597f10816dd2665bbb2/687474703a2f2f706c6163656b697474656e2e636f6d2f672f3330302f3230302f" target="_blank"><img src="https://camo.githubusercontent.com/16a9d5241f679b6429fc0597f10816dd2665bbb2/687474703a2f2f706c6163656b697474656e2e636f6d2f672f3330302f3230302f" alt="" data-canonical-src="https://placekitten.com/g/300/200/" style="max-width:100%;"></a></p>
-
-      <p>Large images should always scale down and fit in the content container.</p>
-
-      <p><a href="https://camo.githubusercontent.com/afe46418285497605cf4f6376b75f8c818658fb1/687474703a2f2f706c6163656b697474656e2e636f6d2f672f313230302f3830302f" target="_blank"><img src="https://camo.githubusercontent.com/afe46418285497605cf4f6376b75f8c818658fb1/687474703a2f2f706c6163656b697474656e2e636f6d2f672f313230302f3830302f" alt="" data-canonical-src="https://placekitten.com/g/1200/800/" style="max-width:100%;"></a></p>
-
-      <pre><code>This is the final element on the page and there should be no margin below this.</code></pre>
+<p>You are here because you either scrolled down past the basic installation instructions and/or you want to make your end product easier to modify and somewhat automate it. It will be a tad bit difficult and require more advanced coding "know-how." However, after completing this successfully, you will realize that it is more flexible in modification and more user friendly. It is recommended you create a folder housing facts.py, as soon, that folder will be populated with another folder. These steps can also be imitated with Repl.it. This guide will assume that you are housing your facts.py file in its own folder (not necessary for Repl.it). With all that in mind, let us begin!
+<ol class="task-list">
+<li>Make sure you have all the dependencies and the program, facts.py, itself.</strong></li>
+<li>Create a new file in the <strong>same folder</strong> as facts.py (again, not necessary for hosting on Repl.it). Call it something like facts.txt (make sure you have your file extensions enabled if you are using Windows/macOS). The file name is facts, while the file extension is txt. This guide will assume you are using facts.txt as the file name.</a>.</li>
+<li>Populate facts.txt with any facts or information that you want. Remember, the actual python code itself calls for the bot to pick a random fact each time. Remember to also separate each fact by creating a new line.</li>
+<li>Move to the facts.py file. After the last <code>import</code> function and before the <code>bot = commands.Bot(command_prefix='!')</code> function, make sure to add <code>factstext = open("facts.txt").read().splitlines()</code>. Basically, we are creating a new variable called "factstext" and defining it to open a text file called "facts.txt," and then read it (<code>.read()</code>). We also add <code>.splitlines()</code> to tell the program that we are splitting the string each time we have a new line break.</li>
+<li>In our original code, we hard-coded some facts into it. It looks like this: <code>fax = [ 'Test', 'Test 2', 'Test 3' ]</code>. Delete everything from the first bracket to the last. Keep the fax variable. Now, set the variable "fax" equal to the list of "factstext". You would implement it like so: <code>fax = list(factstext)</code>. You can leave your "response" untouched. 6. Success! It should (theoretically) work! If it somehow doesn't, double check your code. If debugging your code still doesn't work, open up an issue ticket, and we'll go from there!</li>
+</ol>
+</p>
 
       <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/jasonlong/cayman-theme">Cayman</a> is maintained by <a href="https://github.com/jasonlong">jasonlong</a>.</span>
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+        <span class="site-footer-owner">This page is maintained by <a href="https://github.com/AGaiki/" target="_blank">Aditya Gaiki</a>.</span>
+        <span class="site-footer-credits">This theme, <a href="https://github.com/pages-themes/cayman" target="_blank">Cayman</a>, was made by the wonderful people at GitHub.</span>
       </footer>
 
     </section>
